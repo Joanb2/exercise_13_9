@@ -24,7 +24,7 @@ function start() {
 				handlers.error(request, response);
 		}
 	}
-	http.createServer(onRequest).listen(9000);
+	http.createServer(onRequest).listen(8000);
 
 	console.log("Uruchomiono serwer".green);
 }
